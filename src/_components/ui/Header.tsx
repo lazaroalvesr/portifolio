@@ -5,7 +5,6 @@ import Image from "next/image"
 import { MouseEvent, useState } from "react"
 import { Button } from "./moving-border"
 import Link from "next/link"
-import { BackgroundBeams } from "./background-beams"
 
 export function Header() {
     const [ativo, setAtivo] = useState(false)
@@ -80,7 +79,6 @@ export function Header() {
                     </ul>
                 </nav>
             </div>
-            <BackgroundBeams />
-        </header>
+       </header>
     )
 }

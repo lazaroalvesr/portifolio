@@ -24,23 +24,31 @@ export const Projetos = () => {
                         href="https://land-page-gym.vercel.app/"
                         src="/img/LandPage_GYM.png"
                         titulo="BestGym"
-                        sobre="Nosso site foi desenvolvido para apresentar os produtos e serviços que oferecemos, assim como as características exclusivas que tornam a nossa academia especial"
+                        sobre="BestGym  desenvolvido para apresentar os produtos e serviços que oferecemos, assim como as características exclusivas que tornam a nossa academia especial"
                         tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
                     />
                     <CardProjetos
-                        href="https://github.com/lazaroalvesr/Api_Car"
-                        hrefGit="https://github.com/lazaroalvesr/Api_Car"
-                        src="/img/Api_Car.png"
-                        titulo="API - Gestão de loja de carros"
-                        sobre="API completa para gestão de loja de carros. Cria, edita, visualiza e exclui registros, busca por ID e categoriza veículos."
-                        tec={["Node.JS", "Typescript", "Prisma", "Fastify", "PostgreSQL"]}
+                        href="https://stock-flow-front.vercel.app/"
+                        hrefGit="https://github.com/lazaroalvesr/StockFlow_Front"
+                        src="/img/stockFlow.png"
+                        titulo="Stock Flow"
+                        sobre="StockFlow é uma plataforma de gerenciamento de estoque com uma interface moderna que simplifica a organização e o controle de inventários. Proporcionando uma solução prática e segura para a gestão de inventário."
+                        tec={["ReactJS", "Typescript", "NextJS", "Tailwind CSS"]}
+                    />
+                      <CardProjetos
+                        href="https://github.com/lazaroalvesr/API_stockFlow"
+                        hrefGit="https://github.com/lazaroalvesr/API_stockFlow"
+                        src="/img/apiStockFlow.png"
+                        titulo="Stock Flow API"
+                        sobre="StockFlow API permite gerenciar inventários com facilidade, oferecendo funcionalidades para criar, editar, e excluir pastas e itens. Proporciona uma solução eficiente e segura para o controle de estoque."
+                        tec={["NodeJS", "NestJS", "DDD", "Prisma","PostgreSQL"]}
                     />
                     <CardProjetos
                         hrefGit="https://github.com/lazaroalvesr/LandPage_GYM"
                         href="https://arrudabombas.com.br/"
                         src="/img/Arruda_Bombas.png"
                         titulo="Arruda Bombas"
-                        sobre="O site foi criado para mostrar os produtos e serviços da empresa, como suas bombas de concreto, e facilitar o contato com os clientes."
+                        sobre="Arruda Bombas foi criado para mostrar os produtos e serviços da empresa, como suas bombas de concreto, e facilitar o contato com os clientes."
                         tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
                     />
                 </div>

@@ -19,7 +19,7 @@ export const CardProjetos = ({ href, sobre, src, tec, titulo , hrefGit}: CardPro
                     </div>
                     <div className="flex flex-col h-56">
                         <p className="font-bold text-1xl pt-4">{titulo}</p>
-                        <p className="text-[#7E7E7E] text-sm  w-72 h-30 pt-4">{sobre}</p>
+                        <p className="text-[#7E7E7E] text-sm  w-72 h-30 pt-3">{sobre}</p>
                         <div className="text-blue-500 text-sm flex gap-x-8 gap-y-2 w-72 pt-4 flex-wrap">
                             {tec.map((item, index) => (
                                 <p key={index}>{item}</p>
