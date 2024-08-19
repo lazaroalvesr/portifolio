@@ -35,13 +35,13 @@ export const Projetos = () => {
                         sobre="StockFlow é uma plataforma de gerenciamento de estoque com uma interface moderna que simplifica a organização e o controle de inventários. Proporcionando uma solução prática e segura para a gestão de inventário."
                         tec={["ReactJS", "Typescript", "NextJS", "Tailwind CSS"]}
                     />
-                      <CardProjetos
+                    <CardProjetos
                         href="https://github.com/lazaroalvesr/API_stockFlow"
                         hrefGit="https://github.com/lazaroalvesr/API_stockFlow"
                         src="/img/apiStockFlow.png"
                         titulo="Stock Flow API"
                         sobre="StockFlow API permite gerenciar inventários com facilidade, oferecendo funcionalidades para criar, editar, e excluir pastas e itens. Proporciona uma solução eficiente e segura para o controle de estoque."
-                        tec={["NodeJS", "NestJS", "DDD", "Prisma","PostgreSQL"]}
+                        tec={["NodeJS", "NestJS", "DDD", "Prisma", "PostgreSQL"]}
                     />
                     <CardProjetos
                         hrefGit="https://github.com/lazaroalvesr/LandPage_GYM"

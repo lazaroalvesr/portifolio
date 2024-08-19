@@ -13,7 +13,6 @@ export function Header() {
         setAtivo(!ativo)
     }
 
-
     function scrollToSection(event: MouseEvent<HTMLAnchorElement>, id: string) {
         event.preventDefault();
         const element = document.querySelector(id);
@@ -31,7 +30,6 @@ export function Header() {
             setAtivo(false)
         }
     }
-
 
     return (
         <header>
