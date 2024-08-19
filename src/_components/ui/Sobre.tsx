@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import { ItensListaTec } from "./ItensListaTec"
-import { BackgroundBeams } from "./background-beams"
 
 export const Sobre = () => {
     return (
@@ -58,7 +57,6 @@ export const Sobre = () => {
                     />
                 </div>
             </div>
-            <BackgroundBeams/>
         </section>
     )
 }
