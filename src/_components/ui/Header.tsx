@@ -44,7 +44,7 @@ export function Header() {
                     />
                     <h1 className="text-2xl font-bold w-8">Alves R</h1>
                 </div>
-                <button className="lg:hidden md:hidden absolute right-5 top-5" onClick={toggle} aria-label="Botão de abrir Menu Mobile">
+                <button className="lg:hidden md:hidden absolute right-5 top-5 " onClick={toggle} aria-label="Botão de abrir Menu Mobile">
                     {ativo ? (
                         <Image src="/icon/x.svg" alt="Ícone fechar menu" width={40} height={40} />
                     ) : (
@@ -52,7 +52,7 @@ export function Header() {
                     )}
                 </button>
                 <nav>
-                    <ul className={` flex gap-12 lg:h-auto md:h-auto items-center ${ativo ? "flex-col z-50 text-2xl absolute h-[550px] left-0 w-full bg-black items-center justify-center text-center mt-4 " : "h-0 overflow-hidden"}`}>
+                    <ul className={`flex gap-12 lg:h-auto md:h-auto items-center ${ativo ? "animeLeftMobile flex-col z-50 text-2xl absolute h-[550px] left-0 w-full animateLeft bg-black items-center justify-center text-center mt-4 " : "h-0 overflow-hidden"}`}>
                         <li>
                             <LinkRedirect href="#sobre" onClick={(e) => scrollToSection(e, '#sobre')}>
                                 Sobre
@@ -77,6 +77,6 @@ export function Header() {
                     </ul>
                 </nav>
             </div>
-       </header>
+        </header>
     )
 }

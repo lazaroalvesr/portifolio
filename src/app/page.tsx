@@ -5,11 +5,13 @@ import { Sobre } from "@/_components/ui/Sobre";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Main />
-      <Sobre />
-      <Projetos />
-      <Contato />
-    </div>
+      <div>
+        <Sobre />
+        <Projetos />
+        <Contato />
+      </div>
+    </>
   );
 }
