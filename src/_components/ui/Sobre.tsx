@@ -23,7 +23,7 @@ export const Sobre = () => {
                             experiência. Sou especializado em HTML, CSS,
                             JavaScript, TypeScript, ReactJS, Next.js,
                             Tailwind CSS e Styled-Components. Além disso,
-                            possuo habilidades em Node.js, Fastify, SQL,
+                            possuo habilidades em Node.js, NestJS, SQL,
                             PostgreSQL e Prisma.
                         </p>
                         <p>
