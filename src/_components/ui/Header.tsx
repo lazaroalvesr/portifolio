@@ -68,7 +68,7 @@ export function Header() {
                                 Contato
                             </LinkRedirect>
                         </li>
-                        <Link href="/Curriculo_Lazaro_AlvesR.pdf" download="Curriculo.pdf" target="_blank">
+                        <Link href="/Curriculo.pdf" download="Curriculo.pdf" target="_blank">
                             <Button
                                 className="w-32 h-10 text-lg">
                                 Curriculo
