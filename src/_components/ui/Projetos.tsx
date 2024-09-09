@@ -24,7 +24,7 @@ export const Projetos = () => {
                         href="https://land-page-gym.vercel.app/"
                         src="/img/LandPage_GYM.png"
                         titulo="BestGym"
-                        sobre="BestGym  desenvolvido para apresentar os produtos e serviços que oferecemos, assim como as características exclusivas que tornam a nossa academia especial"
+                        sobre="BestGym foi desenvolvido para apresentar os produtos e serviços que oferecemos, assim como as características exclusivas que tornam a nossa academia especial"
                         tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
                     />
                     <CardProjetos
@@ -44,11 +44,19 @@ export const Projetos = () => {
                         tec={["NodeJS", "NestJS", "DDD", "Prisma", "PostgreSQL"]}
                     />
                     <CardProjetos
-                        hrefGit="https://github.com/lazaroalvesr/LandPage_GYM"
+                        hrefGit="https://github.com/lazaroalvesr/Arruda_Bombas"
                         href="https://arrudabombas.com.br/"
                         src="/img/Arruda_Bombas.png"
                         titulo="Arruda Bombas"
-                        sobre="Arruda Bombas foi criado para mostrar os produtos e serviços da empresa, como suas bombas de concreto, e facilitar o contato com os clientes."
+                        sobre="Arruda Bombas exibe produtos e serviços da empresa, como bombas de concreto, e facilita o contato com clientes. O design é otimizado para uma navegação fácil e acessível."
+                        tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
+                    />
+                     <CardProjetos
+                        hrefGit="https://github.com/lazaroalvesr/LandPage_DrKarolina"
+                        href="https://land-page-dr-karolina.vercel.app/"
+                        src="/img/DrKarolina.png"
+                        titulo="Dr Karolina"
+                        sobre="Criei uma landing page responsiva para uma advogada, evidenciando seus serviços jurídicos. O design é elegante, profissional e focado em conversão."
                         tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
                     />
                 </div>
