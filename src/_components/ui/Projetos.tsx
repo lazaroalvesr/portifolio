@@ -46,7 +46,7 @@ export const Projetos = () => {
                     <CardProjetos
                         hrefGit="https://github.com/lazaroalvesr/Arruda_Bombas"
                         href="https://arrudabombas.com.br/"
-                        src="/img/Arruda_Bombas.png"
+                        src="/img/arruda-bombas.png"
                         titulo="Arruda Bombas"
                         sobre="Arruda Bombas exibe produtos e serviços da empresa, como bombas de concreto, e facilita o contato com clientes. O design é otimizado para uma navegação fácil e acessível."
                         tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
