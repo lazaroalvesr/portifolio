@@ -49,7 +49,7 @@ export const Projetos = () => {
                         src="/img/arruda-bombas.png"
                         titulo="Arruda Bombas"
                         sobre="Arruda Bombas exibe produtos e serviços da empresa, como bombas de concreto, e facilita o contato com clientes. O design é otimizado para uma navegação fácil e acessível."
-                        tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
+                        tec={["ReactJS", "Typescript", "NextJS", "Tailwind CSS"]}
                     />
                      <CardProjetos
                         hrefGit="https://github.com/lazaroalvesr/LandPage_DrKarolina"
