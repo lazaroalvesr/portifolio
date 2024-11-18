@@ -1,8 +1,8 @@
 'use client'
 
-import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react";
+import { Github, Linkedin, Mail } from 'lucide-react'
 
 export const Footer = () => {
     const [anoCriacao, setAnoCriacao] = useState("");
@@ -18,49 +18,41 @@ export const Footer = () => {
 
 
     return (
-        <footer className="mt-40 pb-4">
-            <div className="max-w-7xl gap-3 lg:m-auto flex flex-col items-center lg:items-stretch md:items-stretch  md:mx-4 ">
-                <div className="flex justify-between gap-8 lg:gap-0">
-                    <div className="flex items-center text-nowrap gap-3  w-32">
-                        <Image
-                            src="/icon/code-dots.svg"
-                            alt="Icone chave de codigo"
-                            width={20}
-                            height={20}
-                            className="w-8"
-                        />
-                        <h1 className="text-2xl font-bold w-8">Alves R</h1>
+        <footer className="mt-12  pb-4">
+            <div className="mt-24  border-t border-zinc-800 pt-8">
+                <div className="flex max-w-7xl m-auto flex-col md:flex-row justify-between items-center gap-4">
+                    <div className="text-zinc-400">
+                        <p className="text-sm">© {anoCriacao} Alves R. Alguns direitos reservados.</p>
                     </div>
-                    <div>
-                        <ul className="flex gap-6">
-                            <Link href="https://www.linkedin.com/in/l%C3%A1zaro-alves-r/" target=" blank">
-                                <Image
-                                    src="/icon/linkedin.svg"
-                                    alt="Icone Linkedin"
-                                    width={40}
-                                    height={40}
-                                />
-                            </Link>
-                            <Link href="mailto:lazaroalves12355@gmail.com">
-                                <Image
-                                    src="/icon/mail.svg"
-                                    alt="Icone Linkedin"
-                                    width={40}
-                                    height={40}
-                                />
-                            </Link>
-                            <Link href="https://github.com/lazaroalvesr" target="_blank">
-                                <Image
-                                    src="/icon/github.svg"
-                                    alt="Icone Linkedin"
-                                    width={40}
-                                    height={40}
-                                />
-                            </Link>
-                        </ul>
+
+                    <div className="flex items-center gap-4">
+                        <Link
+                            href="https://www.linkedin.com/in/l%C3%A1zaro-alves-r/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-zinc-400 hover:text-white transition-colors"
+                            aria-label="LinkedIn"
+                        >
+                            <Linkedin className="h-5 w-5" />
+                        </Link>
+                        <Link
+                                href="mailto:lazaroalves12355@gmail.com"
+                                className="text-zinc-400 hover:text-white transition-colors"
+                            aria-label="Email"
+                        >
+                            <Mail className="h-5 w-5" />
+                        </Link>
+                        <Link
+                            href="https://github.com/lazaroalvesr"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-zinc-400 hover:text-white transition-colors"
+                            aria-label="GitHub"
+                        >
+                            <Github className="h-5 w-5" />
+                        </Link>
                     </div>
                 </div>
-                <p className="text-sm">© {anoCriacao} Alves R. Alguns direitos reservados.</p>
             </div>
         </footer >
     )

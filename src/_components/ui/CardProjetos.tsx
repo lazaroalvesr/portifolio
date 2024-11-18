@@ -5,7 +5,7 @@ import { IconCard } from "./IconsCardProjeto"
 
 export const CardProjetos = ({ href, sobre, src, tec, titulo , hrefGit}: CardProjetosProps) => {
     return (
-        <Link href={href} target="_blank" className="cursor-pointer hover:scale-105 transition-transform duration-300">
+        <Link href={href} target="_blank" className="cursor-pointer hover:scale-105 transition-transform duration-300" rel="noopener noreferrer">
             <div className="w-80 h-[450px] rounded-md -z-20 relative  cursor-pointer bg-gray-900 border border-gray-600">
                 <div className="w-72 m-auto mt-4">
                     <div className="bg-gray-500 cursor-pointer  rounded-md h-[162px]">
