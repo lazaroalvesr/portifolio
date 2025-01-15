@@ -7,11 +7,9 @@ export default function Home() {
   return (
     <>
       <Main />
-      <div>
-        <Sobre />
-        <Projetos />
-        <Contato />
-      </div>
+      <Sobre />
+      <Projetos />
+      <Contato />
     </>
   );
 }

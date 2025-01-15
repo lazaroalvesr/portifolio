@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image";
 import { TypewriterEffect } from "./typewriter-effect";
 import { motion } from 'framer-motion';
 
@@ -29,6 +30,15 @@ export const Main = () => {
                 <h1 className="text-xl lg:text-xl font-bold">Desenvolvedor Front-End ReactJS</h1>
                 <h2 className="lg:text-lg text-gray-600 dark:text-gray-400 mt-2">Transformando Ideias em Realidade com Código</h2>
             </motion.div>
+            <div>
+                <Image
+                    src="/img/unionImg.png"
+                    alt="teste"
+                    width={400}
+                    height={400}
+                    className="absolute w-full left-0 top-0"
+                />
+            </div>
         </section>
     );
 };
