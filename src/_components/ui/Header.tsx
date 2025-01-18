@@ -2,7 +2,9 @@
 
 import { LinkRedirect } from "@/lib/linkRediret"
 import Image from "next/image"
+import Link from "next/link"
 import { MouseEvent, useState } from "react"
+import { Button } from "./moving-border"
 
 export function Header() {
     const [ativo, setAtivo] = useState(false)
@@ -66,12 +68,12 @@ export function Header() {
                                 Contato
                             </LinkRedirect>
                         </li>
-                        {/* <Link href="/Curriculo.pdf" download="Curriculo.pdf" target="_blank">
+                        <Link href="/Curriculo.pdf" download="Curriculo.pdf" target="_blank">
                             <Button
                                 className="w-32 h-10 text-lg">
                                 Curriculo
                             </Button>
-                        </Link> */}
+                        </Link>
                     </ul>
                 </nav>
             </div>
