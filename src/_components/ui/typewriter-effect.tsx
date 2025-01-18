@@ -54,7 +54,7 @@ export const TypewriterEffect = ({
                   initial={{}}
                   key={`char-${index}`}
                   className={cn(
-                    `text-white opacity-0 hidden`,
+                    `text-[#FAFAFA] opacity-0 hidden`,
                     word.className
                   )}
                 >
@@ -125,7 +125,7 @@ export const TypewriterEffectSmooth = ({
               {word.text.map((char, index) => (
                 <span
                   key={`char-${index}`}
-                  className={cn(`dark:text-white text-black `, word.className)}
+                  className={cn(`dark:text-[#FAFAFA] text-black `, word.className)}
                 >
                   {char}
                 </span>

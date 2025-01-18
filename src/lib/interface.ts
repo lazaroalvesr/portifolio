@@ -14,3 +14,10 @@ export interface CardProjetosProps {
     sobre: string
     tec: string[]
 }
+
+export interface FormContact {
+    name: string
+    email: string
+    telephone: string
+    message: string
+}

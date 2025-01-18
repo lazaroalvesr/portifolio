@@ -3,8 +3,6 @@
 import { LinkRedirect } from "@/lib/linkRediret"
 import Image from "next/image"
 import { MouseEvent, useState } from "react"
-import { Button } from "./moving-border"
-import Link from "next/link"
 
 export function Header() {
     const [ativo, setAtivo] = useState(false)
@@ -52,7 +50,7 @@ export function Header() {
                     )}
                 </button>
                 <nav>
-                    <ul className={`flex gap-12 lg:h-auto md:h-auto items-center ${ativo ? "animeLeftMobile flex-col z-50 text-2xl absolute h-[550px] left-0 w-full animateLeft bg-black items-center justify-center text-center mt-4 " : "h-0 overflow-hidden"}`}>
+                    <ul className={`flex gap-12 lg:h-auto md:h-auto items-center ${ativo ? "animeLeftMobile flex-col z-50 text-2xl absolute h-[550px] left-0 w-full animateLeft bg-[#101010] items-center justify-center text-center mt-4 " : "h-0 overflow-hidden"}`}>
                         <li>
                             <LinkRedirect href="#sobre" onClick={(e) => scrollToSection(e, '#sobre')}>
                                 Sobre
@@ -68,12 +66,12 @@ export function Header() {
                                 Contato
                             </LinkRedirect>
                         </li>
-                        <Link href="/Curriculo.pdf" download="Curriculo.pdf" target="_blank">
+                        {/* <Link href="/Curriculo.pdf" download="Curriculo.pdf" target="_blank">
                             <Button
                                 className="w-32 h-10 text-lg">
                                 Curriculo
                             </Button>
-                        </Link>
+                        </Link> */}
                     </ul>
                 </nav>
             </div>

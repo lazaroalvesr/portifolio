@@ -30,14 +30,14 @@ export const Footer = () => {
                             href="https://www.linkedin.com/in/l%C3%A1zaro-alves-r/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-zinc-400 hover:text-white transition-colors"
+                            className="text-zinc-400 hover:text-[#FAFAFA] transition-colors"
                             aria-label="LinkedIn"
                         >
                             <Linkedin className="h-5 w-5" />
                         </Link>
                         <Link
                                 href="mailto:lazaroalves12355@gmail.com"
-                                className="text-zinc-400 hover:text-white transition-colors"
+                                className="text-zinc-400 hover:text-[#FAFAFA] transition-colors"
                             aria-label="Email"
                         >
                             <Mail className="h-5 w-5" />
@@ -46,7 +46,7 @@ export const Footer = () => {
                             href="https://github.com/lazaroalvesr"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-zinc-400 hover:text-white transition-colors"
+                            className="text-zinc-400 hover:text-[#FAFAFA] transition-colors"
                             aria-label="GitHub"
                         >
                             <Github className="h-5 w-5" />

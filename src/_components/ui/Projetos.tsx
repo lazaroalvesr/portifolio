@@ -25,23 +25,7 @@ export const Projetos = () => {
                         src="/img/LandPage_GYM.png"
                         titulo="BestGym"
                         sobre="BestGym foi desenvolvido para apresentar os produtos e serviços que oferecemos, assim como as características exclusivas que tornam a nossa academia especial"
-                        tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
-                    />
-                    <CardProjetos
-                        href="https://stock-flow-front.vercel.app/"
-                        hrefGit="https://github.com/lazaroalvesr/StockFlow_Front"
-                        src="/img/stockFlow.png"
-                        titulo="Stock Flow"
-                        sobre="StockFlow é uma plataforma de gerenciamento de estoque com uma interface moderna que simplifica a organização e o controle de inventários. Proporcionando uma solução prática e segura para a gestão de inventário."
-                        tec={["ReactJS", "Typescript", "NextJS", "Tailwind CSS"]}
-                    />
-                    <CardProjetos
-                        href="https://github.com/lazaroalvesr/API_stockFlow"
-                        hrefGit="https://github.com/lazaroalvesr/API_stockFlow"
-                        src="/img/apiStockFlow.png"
-                        titulo="Stock Flow API"
-                        sobre="StockFlow API permite gerenciar inventários com facilidade, oferecendo funcionalidades para criar, editar, e excluir pastas e itens. Proporciona uma solução eficiente e segura para o controle de estoque."
-                        tec={["NodeJS", "NestJS", "DDD", "Prisma", "PostgreSQL"]}
+                        tec={["Typescript", "NextJS", "Styled-Components"]}
                     />
                     <CardProjetos
                         hrefGit="https://github.com/lazaroalvesr/Arruda_Bombas"
@@ -49,15 +33,23 @@ export const Projetos = () => {
                         src="/img/arruda-bombas.png"
                         titulo="Arruda Bombas Hidráulicas"
                         sobre="O site da Arruda Bombas Hidráulicas exibe produtos e serviços da empresa, como bombas de concreto, e facilita o contato com os clientes. O design é otimizado para navegação intuitiva e acessível."
-                        tec={["ReactJS", "Typescript", "NextJS", "Tailwind CSS"]}
+                        tec={["Typescript", "NextJS", "Tailwind CSS"]}
                     />
-                     <CardProjetos
+                    <CardProjetos
+                        hrefGit="https://github.com/lazaroalvesr/raffleflow-frontend"
+                        href="https://raffle-master-front.vercel.app/"
+                        src="/img/RifaFlow.png"
+                        titulo="RifaFlow"
+                        sobre="Desenvolvido com Next.js e Tailwind CSS no front-end e NestJS com Prisma e Docker no back-end, o Rifaflow é uma plataforma para criação e gerenciamento de rifas online, com foco em funcionalidade e segurança."
+                        tec={["Typescript", "NextJS", "Tailwind CSS", "NodeJs", "PostgreSQL"]}
+                    />
+                    <CardProjetos
                         hrefGit="https://github.com/lazaroalvesr/LandPage_DrKarolina"
                         href="https://land-page-dr-karolina.vercel.app/"
                         src="/img/DrKarolina.png"
                         titulo="Dr Karolina"
                         sobre="Criei uma landing page responsiva para uma advogada, evidenciando seus serviços jurídicos. O design é elegante, profissional e focado em conversão."
-                        tec={["ReactJS", "Typescript", "NextJS", "Styled-Components"]}
+                        tec={["Typescript", "NextJS", "Styled-Components"]}
                     />
                 </div>
             </div>

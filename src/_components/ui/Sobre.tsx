@@ -44,6 +44,8 @@ export const Sobre = () => {
                             <ItensListaTec text="Typescript" />
                             <ItensListaTec text="Node.js" />
                             <ItensListaTec text="PostgreSQL " />
+                            <ItensListaTec text="Docker " />
+                            <ItensListaTec text="NestJS " />
                         </div>
                     </div>
                 </div>
