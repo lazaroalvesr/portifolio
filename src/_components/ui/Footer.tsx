@@ -18,8 +18,8 @@ export const Footer = () => {
 
 
     return (
-        <footer className="mt-12  pb-4">
-            <div className="mt-24  border-t border-zinc-800 pt-8">
+        <footer className="mt-12 pb-4">
+            <div className="mt-24 md:px-14 border-t border-zinc-800 pt-8">
                 <div className="flex max-w-7xl m-auto flex-col md:flex-row justify-between items-center gap-4">
                     <div className="text-zinc-400">
                         <p className="text-sm">© {anoCriacao} Alves R. Alguns direitos reservados.</p>
